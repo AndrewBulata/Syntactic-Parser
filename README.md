@@ -4,6 +4,7 @@
 <img width="976" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/0d19819f-ce08-4a26-878e-49c1c87b56cb">
 
 
+
 ## Motivation: 
 What is syntax, why does it matter, and why should we automate it?
 
@@ -33,6 +34,8 @@ In Italian, things are much more nuanced.
 
 
 
+
+
                                                   Figure 2. Prepositional objects in Italian.
 
 Italian syntax is much richer in *complementi* (objects) than other languages, as it discerns between all its prepositional objects. In other words, different prepositions mean different labels.
@@ -42,6 +45,8 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 <img width="1501" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/97e93505-e969-4228-96a4-1638e61f9b70">
+
+
 
 
 
