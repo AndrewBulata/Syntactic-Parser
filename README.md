@@ -10,10 +10,20 @@ Syntax is intimately linked to morphology (the study of word forms and structure
 
 Automating syntax checks offers several advantages. It enhances efficiency by saving time in proofreading and editing, ensuring consistency by uniformly applying syntactic rules, and is especially beneficial in professional and academic writing. In natural language processing (NLP) and computational linguistics, automated syntax analysis enables computers to understand, interpret, and generate human language, facilitating applications like machine translation and chatbots.
 
-## Implementation 
+## Implementation & theoretical considerations
 In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, what is known as 'analisi logica' in Italian (see the book 'Analisi logica' by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationship or subordination between parts of speech (which become parts of sentence) in a sentence. Specifically, analisi logica, unlike the anglo-saxon counterpart, assignes more detailed labels to words in a sentence, which constitutes the main challenge to refining the already existing SpaCy modules. As a general example, English dependency syntax subshumes all objects preceded by prepositions under the term 'prepositional object', whereas Italian makes a clear distinction betwen all them.
 
 <img width="1170" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/d2fb2491-8f99-49ce-b697-dbe7ad260b2f">
+
+Figure 1. Prepositional objects in English
+
+In Italian, things are much more nuanced.
+
+<img width="1784" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/745cd36d-665c-434e-ae60-1654fc832c63">
+
+Figure 2. Prepositional objects in Italian.
+
+
 
 
 
