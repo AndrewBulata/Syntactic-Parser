@@ -24,7 +24,7 @@ In this repository, I am attempting to build a syntactic parser in line with dep
 
 
 
-                                                  Figure 1. Prepositional objects in English
+                                                  Figure 1. Some prepositional objects in English
 
 
 In Italian, things are much more nuanced.
@@ -39,7 +39,7 @@ In Italian, things are much more nuanced.
 
 
 
-                                                  Figure 2. Prepositional objects in Italian.
+                                                  Figure 2. Some prepositional objects in Italian.
 
 Italian syntax is much richer in *complementi* (objects) than other languages, as it discerns between all its prepositional objects. In other words, different prepositions mean different labels.
 
@@ -59,7 +59,7 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 
-                                      Figure 3. Syntactic parsing diagram (translated: I gave him a gift).
+                                    Figure 3. Syntactic parsing diagram (translated: I gave him a gift).
 
 
 
