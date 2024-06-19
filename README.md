@@ -11,12 +11,14 @@ Syntax is intimately linked to morphology (the study of word forms and structure
 Automating syntax checks offers several advantages. It enhances efficiency by saving time in proofreading and editing, ensuring consistency by uniformly applying syntactic rules, and is especially beneficial in professional and academic writing. In natural language processing (NLP) and computational linguistics, automated syntax analysis enables computers to understand, interpret, and generate human language, facilitating applications like machine translation and chatbots.
 
 ## Implementation & theoretical considerations
-In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, what is known as 'analisi logica' in Italian (see the book 'Analisi logica' by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationship or subordination between parts of speech (which become parts of sentence) in a sentence. Specifically, analisi logica, unlike the anglo-saxon counterpart, assignes more detailed labels to words in a sentence, which constitutes the main challenge to refining the already existing SpaCy modules. As a general example, English dependency syntax subshumes all objects preceded by prepositions under the term 'prepositional object', whereas Italian makes a clear distinction betwen all them.
+In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, specifically known as 'analisi logica' in Italian (see the book 'Analisi logica' by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationships or subordination between parts of speech (which become parts of a sentence) in a sentence. Specifically, analisi logica, unlike its Anglo-Saxon counterpart, assigns more detailed labels to words in a sentence, which constitutes the main challenge in refining the existing SpaCy modules. As a general example, English dependency syntax subsumes all prepositional objects under one umbrella term, whereas Italian makes clear distinctions between them.
 
-<img width="1170" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/5ea83940-c1f5-46e2-98ca-e7f29bfa980f">
+<img width="1170" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/33ee8c2c-b096-4270-bff2-b2791c1975a5">
 
 
-Figure 1. Prepositional objects in English
+
+
+                                                  Figure 1. Prepositional objects in English
 
 
 In Italian, things are much more nuanced.
@@ -25,7 +27,15 @@ In Italian, things are much more nuanced.
 <img width="1784" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/ff0e166d-0daa-4689-8959-16dbcff581e4">
 
 
-Figure 2. Prepositional objects in Italian.
+
+
+                                                  Figure 2. Prepositional objects in Italian.
+
+Italian syntax is much richer in *complementi* (objects) than other languages, as it discerns between all its prepositional objects. In other words, different prepositions mean different labels.
+
+However, we will neglect Italian for now and instead consider Spanish, whose syntax is by no means less detailed (though the basics of it are easier to code, in my opinion). *Sintaxis tradicional* is the equivalent field of study. Building upon POS tagging, I will be encoding the basic elements of Spanish syntax as taught in school: sujeto, predicado, complemento directo, complemento indirecto, atributo, complemento predicativo, complemento de agente, etc. I will start by building a rule-based syntactic parser, but I will most likely transition to a machine learning-powered one.
+
+
 
 
 
