@@ -1,7 +1,7 @@
 # Syntactic Parser
 
 
-<img width="976" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/f868c13a-9913-4448-9ef1-c708dc1bb531">
+<img width="976" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/0d19819f-ce08-4a26-878e-49c1c87b56cb">
 
 
 ## Motivation: 
@@ -41,11 +41,12 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 
-<img width="1501" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/61eb3ff8-9183-4f09-ab52-a163f5687d5e">
+<img width="1501" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/97e93505-e969-4228-96a4-1638e61f9b70">
 
 
 
-                                                  Figure 3. Syntactic parsing diagram showing parts of sentence and parts of speech
+
+                                             Figure 3. Syntactic parsing diagram showing parts of sentence and parts of speech
 
 
 This task appears deceptively challenging. The way humans naturally acquire language is miraculous, and programming AI to mimic this process is even more so. While we internalise grammar rules intuitively (more often than not), machines employ 'synthetic' methods, whether rule-based or statistical, that in the end give us a glimpse into how we ourselves acquire and process language. "To conclude this section with a cliffhanger, I leave the reader with the following exercise (a 'reverse syntax' exercise: going from label to function) to illustrate the practical relevance of this theoretical discussion:
