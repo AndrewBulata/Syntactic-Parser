@@ -23,10 +23,13 @@ In this repository, I am attempting to build a syntactic parser in line with dep
 
 
 
+
                                                   Figure 1. Prepositional objects in English
 
 
 In Italian, things are much more nuanced.
+
+
 
 
 <img width="1784" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/ff0e166d-0daa-4689-8959-16dbcff581e4">
@@ -44,6 +47,9 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 
+
+
+
 <img width="1501" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/97e93505-e969-4228-96a4-1638e61f9b70">
 
 
@@ -51,7 +57,7 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 
-                                      Figure 3. Syntactic parsing diagram (translated: I gave him a gift.)
+                                      Figure 3. Syntactic parsing diagram (translated: I gave him a gift).
 
 
 This task appears deceptively challenging. The way humans naturally acquire language is miraculous, and programming AI to mimic this process is even more so. While we internalise grammar rules intuitively (more often than not), machines employ 'synthetic' methods, whether rule-based or statistical, that in the end give us a glimpse into how we ourselves acquire and process language. "To conclude this section with a cliffhanger, I leave the reader with the following exercise (a 'reverse syntax' exercise: going from label to function) to illustrate the practical relevance of this theoretical discussion:
