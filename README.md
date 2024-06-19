@@ -22,7 +22,9 @@ Figure 1. Prepositional objects in English
 
 In Italian, things are much more nuanced.
 
-<img width="1784" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/745cd36d-665c-434e-ae60-1654fc832c63">
+
+<img width="1784" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/9c9e0eab-85be-41a8-9b2d-4b61e359a704">
+
 
 
 Figure 2. Prepositional objects in Italian.
