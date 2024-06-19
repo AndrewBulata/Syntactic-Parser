@@ -70,7 +70,7 @@ This task appears deceptively challenging. The way humans naturally acquire lang
 
 
 
-1. J'ai **vu** une femme qui dansait.  
+1. J'ai <u>vu<u> une femme qui dansait.  
    Translation: I saw a woman who was dancing.
 
 2. La femme que j'ai **vue** dansait.  
