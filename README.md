@@ -50,6 +50,8 @@ However, we will neglect Italian for now and instead consider Spanish, whose syn
 
 
 
+
+
 <img width="1501" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/97e93505-e969-4228-96a4-1638e61f9b70">
 
 
