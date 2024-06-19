@@ -70,18 +70,18 @@ This task appears deceptively challenging. The way humans naturally acquire lang
 
 
 
-1. J'ai <u>vu</u> une femme qui dansait.  
+1. J'ai *vu* une femme qui dansait.  
    Translation: I saw a woman who was dancing.
 
-2. La femme que j'ai <u>vue</u> dansait.  
+2. La femme que j'ai *vue* dansait.  
    Translation: The woman whom I saw was dancing.
 
 Or:
 
-3. J'ai <u>vu</u> des hommes qui dansaient.  
+3. J'ai *vu* des hommes qui dansaient.  
    Translation: I saw men who were dancing.
 
-4. Les hommes que j'ai <u>vus</u> dansaient.  
+4. Les hommes que j'ai *vus* dansaient.  
    Translation: The men whom I saw were dancing.
 
 
