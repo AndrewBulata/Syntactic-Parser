@@ -15,6 +15,12 @@ Syntax is intimately linked to morphology (the study of word forms and structure
 
 Automating syntax checks offers several advantages. It enhances efficiency by saving time in proofreading and editing, ensuring consistency by uniformly applying syntactic rules, and is especially beneficial in professional and academic writing. In natural language processing (NLP) and computational linguistics, automated syntax analysis enables computers to understand, interpret, and generate human language, facilitating applications like machine translation and chatbots.
 
+Case in point, when chatbots communicate with us, it is crucial that they produce sentences in a logical sequence, adhering to the word order dictated by syntax. English, like many European languages, typically follows the Subject-Verb-Object (SVO) order. Apart from stylistic and literary exceptions, any deviations from this structure would result in jumbled sentences. There is a saying in journalism about what makes something newsworthy: "Dog bites man, who cares? Man bites dog, now that's news."
+
+<img width="584" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/1f10b51a-383f-45a0-aba1-09c448ac7c8f">
+
+How else would you determine who is the perpetrator of the action and who is on the receiving end without word order?
+
 ## Implementation & theoretical considerations
 In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, specifically known as *analisi logica* in Italian (see the book *Analisi logica* by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationships or subordination between parts of speech (which become parts of sentence) in a sentence. It assigns labels to elements based on their function within the sentence (function to label). Specifically, *analisi logica*, unlike its Anglo-Saxon counterpart, assigns much more detailed labels to words in a sentence, which constitutes the main challenge in refining the existing SpaCy modules. As a general example, English dependency syntax subsumes all prepositional objects under one umbrella term, whereas Italian makes clear distinctions between them.
 
