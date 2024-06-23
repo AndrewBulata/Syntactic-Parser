@@ -50,9 +50,7 @@ In Italian, things are much more nuanced.
 
 Italian syntax is much richer in *complementi* (objects) than other languages, as it discerns between all its prepositional objects. In other words, different prepositions mean different labels.
 
-However, we will neglect Italian for now and instead consider Spanish, whose syntax is by no means less detailed (though the basics of it are easier to code, in my opinion). *Sintaxis tradicional* is the equivalent field of study. Building upon POS tagging, I will be coding the basic elements of Spanish syntax as taught in school: sujeto, predicado, complemento directo, complemento indirecto, atributo, complemento predicativo, complemento de agente, etc. I will start by building a rule-based syntactic parser, but I will most likely transition to a machine learning-powered one later on. 
-
-
+However, we will neglect Italian for now and instead consider Spanish, whose syntax is by no means less detailed (though the basics of it are easier to code, in my opinion). *Sintaxis tradicional* is the equivalent field of study. Building upon POS tagging, I will essentially be creating a part-of-sentence tagging module and coding the basic elements of Spanish syntax as taught in school: sujeto, predicado, complemento directo, complemento indirecto, atributo, complemento predicativo, complemento de agente, etc. I will begin with a rule-based syntactic parser but likely transition to a machine learning-powered one later on. Conceptually, part-of-sentence tagging can be implemented based on POS tagging, as parts of sentences are closely linked to parts of speech. In some cases, SpaCy already outputs parts of sentences, such as nsuj for nominative subject. However, the correlation between parts of speech and parts of sentences is not always straightforward, as the Spanish SpaCy module does not distinguish different types of objects (complementos) and only outputs 'obj' labels.
 
 
 
