@@ -27,6 +27,7 @@ How else would you determine who is the perpetrator of the action and who is on 
 ## Theoretical considerations & implementation
 In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, specifically known as *analisi logica* in Italian (see the book *Analisi logica* by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationships or subordination between parts of speech (which become parts of sentence) in a sentence. It assigns labels to elements based on their function within the sentence (function to label). The three most well-known parts of a sentence are:
 
+
 **Subject**: The subject of a sentence is the person, place, thing, or idea that is performing the action or being described. It is typically a noun or pronoun and is often positioned before the verb.
 
 **Predicate (Verb)**: The predicate of a sentence tells what the subject does or is. It includes the verb and any objects, complements, or modifiers that complete the thought. The verb is the main part of the predicate, indicating the action or state of being.
@@ -34,6 +35,7 @@ In this repository, I am attempting to build a syntactic parser in line with dep
 **Object**: The object of a sentence is the noun, noun phrase, or pronoun that receives the action of the verb. There are two main types of objects:
 - **Direct Object**: Receives the action of the verb directly. It answers the question *what?* or *whom?* after the verb.
 - **Indirect Object**: Indicates to whom or for whom the action of the verb is performed. It answers the question *to whom?* or *for whom?* after the verb.
+
 
 However, *analisi logica*, unlike its Anglo-Saxon counterpart, assigns much more detailed labels to words in a sentence, which constitutes the main challenge in refining the existing SpaCy modules. As a general example, English dependency syntax subsumes all prepositional objects under one umbrella term, whereas Italian makes clear distinctions between them.
 
