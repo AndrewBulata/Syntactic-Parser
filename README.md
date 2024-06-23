@@ -1,7 +1,6 @@
 # Syntactic Parser - Part-of-Sentence tagging
 
-
-<img width="976" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/0d19819f-ce08-4a26-878e-49c1c87b56cb">
+<img width="1001" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/d21eac5d-f436-41b1-93a9-f10c6231e8b2">
 
 
 
