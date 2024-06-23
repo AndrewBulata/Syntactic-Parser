@@ -5,7 +5,7 @@
 
 
 
-## Motivation: 
+## Motivation
 What is syntax, why does it matter, and why should we automate it?
 
 Far from being just a theoretical exercise, syntax is essential for language processing and interpretation.
