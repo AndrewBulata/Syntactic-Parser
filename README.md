@@ -21,6 +21,7 @@ Case in point, when chatbots communicate with us, it is crucial that they produc
 
 
 
+
 How else would you determine who is the perpetrator of the action and who is on the receiving end without word order?
 
 ## Theoretical considerations & implementation
