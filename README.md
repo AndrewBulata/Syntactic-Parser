@@ -1,4 +1,4 @@
-# Syntactic Parser - Part-of-Sentence tagging
+# Syntactic Parser: Part-of-Sentence tagging
 
 <img width="1001" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/740201eb-a16e-45ac-9832-3be097e4d801">
 
