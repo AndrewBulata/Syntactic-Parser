@@ -15,7 +15,7 @@ Syntax is intimately linked to morphology (the study of word forms and structure
 
 Automating syntax checks offers several advantages. It enhances efficiency by saving time in proofreading and editing, ensuring consistency by uniformly applying syntactic rules, and is especially beneficial in professional and academic writing. In natural language processing (NLP) and computational linguistics, automated syntax analysis enables computers to understand, interpret, and generate human language, facilitating applications like machine translation and chatbots.
 
-Case in point, when chatbots communicate with us, it is crucial that they produce sentences in a logical sequence, adhering to the word order dictated by syntax. English, like many European languages, typically follows the Subject-Verb-Object (SVO) order. Apart from stylistic and literary exceptions, any deviations from this structure would result in jumbled sentences. There is a saying in journalism about what makes something newsworthy: "Dog bites man, who cares? Man bites dog, now that's news."
+Case in point, when chatbots communicate with us, it is crucial that they produce sentences in a logical sequence, adhering to the word order dictated by syntax. English, like many European languages, typically follows the Subject-Verb-Object (SVO) order. Apart from stylistic and literary exceptions, any deviations from this structure would result in jumbled sentences. There is a saying in journalism about what makes something newsworthy: "Dog bites man, who cares? Man bites dog, now that's news!"
 
 <img width="577" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/c9d97cbe-ed90-41b6-b234-2aa784d35964">
 
