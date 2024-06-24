@@ -39,7 +39,8 @@ In this repository, I am attempting to build a syntactic parser in line with dep
 
 However, *analisi logica*, unlike its Anglo-Saxon counterpart, assigns much more detailed labels to words in a sentence, which constitutes the main challenge in refining the existing SpaCy modules. As a general example, English dependency syntax subsumes all prepositional objects under one umbrella term, whereas Italian makes clear distinctions between them.
 
-<img width="1163" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/5c9ab161-28cc-4d27-ab56-905849cecf8c">
+<img width="1178" alt="image" src="https://github.com/AndrewBulata/Syntactic-Parser/assets/64040990/98fbd07f-dd53-4dba-b19c-5003140d46e5">
+
 
 
 
