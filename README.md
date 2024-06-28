@@ -122,7 +122,7 @@ Note: All French verbs behave similarly in sentences like these; it is not exclu
 ---
 ## Strategy of Implementation
 
----
+
 
 ### Features
 - **POS Tagging**: Identifies the part of speech for each token in the input text.
@@ -136,7 +136,7 @@ Install the required modules:
 pip install spacy
 python -m spacy download es_core_news_sm
 ```
----
+
 
 The initial task is to differentiate between direct and indirect objects (complementos directos and indirectos). To achieve this, we will need to work with SpaCy labels and redefine them, as the Spanish module categorizes all objects under the general term *obj*.
 
