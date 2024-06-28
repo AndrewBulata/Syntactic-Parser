@@ -119,7 +119,7 @@ Question: What causes the French verb *voir* to change like this? **🤔**
 Note: *voir* past participle: vu, vue, vus, vues
 Note: All French verbs behave similarly in sentences like these; it is not exclusive to this verb alone.
 
-
+---
 ## Strategy of Implementation
 
 ---
