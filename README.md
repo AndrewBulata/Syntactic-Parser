@@ -24,7 +24,7 @@ Case in point, when chatbots communicate with us, it is crucial that they produc
 
 This humorous maxim, grounded in a reversal of subject and object, raises an even deeper question. Without word order, without clear syntax, how else would you determine who is the perpetrator of the action and who is on the receiving end?
 
-## Theoretical considerations & implementation
+## Theoretical considerations 
 In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, specifically known as *analisi logica* in Italian (see the book *Analisi logica* by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationships or subordination between parts of speech (which become parts of sentence) in a sentence. It assigns labels to elements based on their function within the sentence (function to label). The three most well-known parts of a sentence are:
 
 
@@ -116,7 +116,25 @@ Note: *voir* past participle: vu, vue, vus, vues
 Note: All French verbs behave similarly in sentences like these; it is not exclusive to this verb alone.
 
 
+## Strategy of Implementation
 
+---
+
+### Features
+- **POS Tagging**: Identifies the part of speech for each token in the input text.
+- **Sentence Structure Analysis**: Determines the subject, predicate, direct object, and indirect object of a sentence.
+- **Visualization**: Uses SpaCy's `displacy` to visually represent the dependency parse of the sentence.
+
+### Installation
+
+Install the required modules:
+```bash
+pip install spacy
+python -m spacy download es_core_news_sm
+```
+---
+
+The initial task is to differentiate between direct and indirect objects (complementos directos and indirectos). To achieve this, we will need to work with SpaCy labels and redefine them, as the Spanish module categorizes all objects under the general term *obj*.
 
 
 
