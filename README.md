@@ -8,7 +8,7 @@
 
 
 ## Motivation
----
+
 What is syntax, why does it matter, and why should we automate it?
 
 Far from being just a theoretical exercise, syntax is essential for language processing and interpretation.
@@ -27,7 +27,7 @@ Case in point, when chatbots communicate with us, it is crucial that they produc
 
 This humorous maxim, grounded in a reversal of subject and object, raises an even deeper question. Without word order, without clear syntax, how else would you determine who is the perpetrator of the action and who is on the receiving end?
 
----
+
 ## Theoretical considerations 
 In this repository, I am attempting to build a syntactic parser in line with dependency grammar methodology as taught in the Latin space, specifically known as *analisi logica* in Italian (see the book *Analisi logica* by Raffaella Riboni). In a nutshell, dependency grammar deals with the relationships or subordination between parts of speech (which become parts of sentence) in a sentence. It assigns labels to elements based on their function within the sentence (function to label). The three most well-known parts of a sentence are:
 
