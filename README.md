@@ -52,7 +52,7 @@ However, *analisi logica*, unlike its Anglo-Saxon counterpart, assigns much more
 
 
 
-                                                  Figure 1. Some prepositional objects in English
+                                        Figure 1. Some prepositional objects in English
 
 
 In Italian, things are much more nuanced.
@@ -67,7 +67,7 @@ In Italian, things are much more nuanced.
 
 
 
-                                                  Figure 2. Some prepositional objects in Italian.
+                                        Figure 2. Some prepositional objects in Italian.
 
 Italian syntax is much richer in *complementi* (objects) than other languages, as it discerns between all its prepositional objects. In other words, different prepositions mean different labels.
 
